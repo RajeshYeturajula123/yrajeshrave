@@ -21,6 +21,7 @@ namespace Inspec.BusinessDataAccess.Base
         public DbConnection Connection { get; private set; }
         public DbTransaction Transaction { get; private set; }
 
+
         #endregion
 
 
