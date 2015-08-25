@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace GetNextTest1 {
+namespace GetNextTask2 {
     
     
-    public partial class _Default {
+    public partial class Default {
         
         /// <summary>
         /// Head1 control.
