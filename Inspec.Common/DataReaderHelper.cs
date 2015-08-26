@@ -39,7 +39,7 @@ namespace Inspec.Common
         public static string GetString(object data)
         {
             //Result variable initialised to null by default
-            string result = null;
+            string result = "";
 
             //if data is not equal to DBNull.Value then it is Converted to string
             if (data != DBNull.Value)

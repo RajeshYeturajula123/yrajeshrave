@@ -22,7 +22,7 @@ namespace GetNextTaskNUnit
             {
                 taskDS.wkfproGetNextTask(null, 1, "CE626054-7344-4810-977A-1697E5E2153A", out entityType, out entityId, out functionType, out lockId, out lockAcquired, out lockExpired);
 
-                Assert.AreEqual("", entityType);
+                Assert.AreNotEqual("", entityType);
                 Assert.IsNotNull(entityId);
                 Assert.AreNotEqual("", functionType);
                 Assert.IsNotNull(lockId);
